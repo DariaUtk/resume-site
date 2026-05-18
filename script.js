@@ -72,21 +72,3 @@ revealEls.forEach((el) => {
   el.dataset.delay = idx * 80;
   revealObserver.observe(el);
 });
-
-/* ─── CONTACT FORM (demo — logs to console) ─── */
-document.getElementById('contactForm').addEventListener('submit', (e) => {
-  e.preventDefault();
-  const note = document.getElementById('formNote');
-  const btn = e.target.querySelector('button[type="submit"]');
-
-  btn.disabled = true;
-  btn.textContent = 'Отправляю...';
-
-  // Replace this timeout with a real fetch() to your backend/API
-  setTimeout(() => {
-    note.textContent = '✓ Message sent! I\'ll get back to you within the day.';
-    btn.textContent = 'Отправить сообщение';
-    btn.disabled = false;
-    e.target.reset();
-  }, 1200);
-});
