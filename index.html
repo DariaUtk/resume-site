@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daria Utkina — Senior QA Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,300;9..144,0,600;9..144,0,700;9..144,0,800;9..144,1,700&family=Epilogue:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <div class="nav__overlay" id="navOverlay"></div>
+  <nav class="nav" id="nav">
+    <div class="nav__logo">QA<span>.</span></div>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="hero__greeting">Hi, my name is</p>
+        <h1 class="hero__name">Daria Utkina</h1>
+        <h2 class="hero__title">Senior QA Engineer</h2>
+        <p class="hero__tagline">
+          I ensure product quality at every stage — from requirements analysis to the final release.
+        </p>
+        <div class="hero__cta">
+          <a href="files/DariaUtkinaCV_26.pdf" download target="_blank" rel="noopener" class="btn btn--primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Download CV
+          </a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__photo-wrap">
+        <div class="hero__photo-ring">
+          <img src="images/profile-image.jpg" alt="Daria Utkina" class="hero__photo" />
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll down</span>
+      <div class="hero__scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">01 / About</span>
+        <h2 class="section__title">A bit about me</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__photo reveal">
+          <div class="about__photo-frame">
+            <img src="images/extra2.jpeg" alt="Daria Utkina" class="about__photo-img" />
+            <div class="about__photo-badge">5+ years of experience</div>
+          </div>
+        </div>
+        <div class="about__text reveal">
+          <p>
+            I'm a Senior QA Engineer with 5+ years of experience testing products in different areas, such as
+            marketplaces, TMS systems, mailings, and payments. I currently live in Gijon, Spain and am looking for new
+            opportunities, either in Spain or remote. I hold a valid EU work permit.
+          </p>
+          <p>
+            As a manual QA Engineer, I've worked on testing complex systems and handling a variety of scenarios. I
+            focus on identifying risks early in the process, which helps reduce correction costs and improve product
+            quality. I'm used to working with limited resources, prioritizing tasks, and ensuring stable, high-quality releases.
+          </p>
+          <p>
+            Outside of work I enjoy crocheting, traveling and learning new languages. Always open to interesting
+            projects and new connections.
+          </p>
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-num">5+</span>
+              <span class="about__stat-label">Years of exp.</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-num">10+</span>
+              <span class="about__stat-label">Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section section--alt" id="achievements">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">02 / Achievements</span>
+        <h2 class="section__title">What I'm proud of</h2>
+      </div>
+      <div class="achievements__grid">
+
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">🏗️</div>
+          <h3>Built the testing process from scratch</h3>
+          <p>
+            Built the testing process from scratch for a product development team, which
+            started with 2 people and has now grown to 9.
+          </p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">🚀</div>
+          <h3>Launched and managed 3+ new services</h3>
+          <p>
+            Launched and managed 3+ new services (marketplace, warehouse scheduling, email
+            campaigns) from scratch, ensuring bug-free releases and testing complex business
+            logic, even with limited resources and tight deadlines.
+          </p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">⚙️</div>
+          <h3>Monolith to microservices</h3>
+          <p>
+            Supported the migration from monolith to microservices by thoroughly testing
+            rewritten modules, identifying critical issues early, and ensuring stable
+            releases with no downtime.
+          </p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">📈</div>
+          <h3>Success rate from 60% to 90%</h3>
+          <p>
+            Improved automated test quality, increasing the success rate from 60% to 90%,
+            speeding up testing cycles and significantly enhancing overall system stability.
+          </p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">🛡️</div>
+          <h3>Threefold reduction in incidents</h3>
+          <p>
+            Planned and managed testing activities, ran cross-team quality audits, and
+            monitored defect metrics — driving a 3× reduction in production incidents.
+          </p>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="achievement-card__icon">🎤</div>
+          <h3>Conference Talk at SQA Days</h3>
+          <p>
+            Spoke at SQA Days on how QA engineers can use JMeter beyond performance testing —
+            applying it for functional testing scenarios. <a href="https://www.youtube.com/watch?v=uAFiAt_CViQ" target="_blank" rel="noopener" class="achievement-card__link">Watch the talk →</a>
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">03 / Experience</span>
+        <h2 class="section__title">Where I've worked</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">Senior QA Engineer</h3>
+                <span class="timeline__company">ATI.SU</span>
+              </div>
+              <span class="timeline__period">2022 — 2025</span>
+            </div>
+            <p class="timeline__desc">A leading freight marketplace and transportation logistics ecosystem in the CIS with over 500K daily active users.</p>
+            <ul class="timeline__list">
+              <li>Launched and managed 3+ new services from scratch (marketplace, warehouse scheduling, email campaigns), ensuring stable releases under tight deadlines.</li>
+              <li>Modernized legacy systems, supporting migration from monolith to microservices and delivery of key module rewrites.</li>
+              <li>Improved automated test quality, increasing success rate from 60% to 90%.</li>
+              <li>Built the testing process from scratch for a product development team that grew from 2 to 9 members.</li>
+              <li>Planned, organized, and managed testing activities across teams.</li>
+              <li>Conducted quality audits across development teams, reducing incidents by 3×.</li>
+              <li>Monitored quality metrics and drove defect reduction initiatives.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__dot"></div>
+          <div class="timeline__card">
+            <div class="timeline__header">
+              <div>
+                <h3 class="timeline__role">QA Engineer</h3>
+                <span class="timeline__company">ATI.SU</span>
+              </div>
+              <span class="timeline__period">2019 — 2022</span>
+            </div>
+            <p class="timeline__desc">A leading freight marketplace and transportation logistics ecosystem in the CIS with over 500K daily active users.</p>
+            <ul class="timeline__list">
+              <li>Performed manual web testing, including API and front-end testing.</li>
+              <li>Conducted functional, smoke, regression, integration, UI/UX, end-to-end (E2E), localization, security, load, and database testing.</li>
+              <li>Analyzed logs using Kibana, Elastic, and Sentry.</li>
+              <li>Tracked and managed defects in Jira/Kaiten.</li>
+              <li>Developed and maintained QA documentation and knowledge base.</li>
+              <li>Reviewed requirements, specifications, and design, providing constructive feedback.</li>
+              <li>Acted as a triager in the Bug Bounty program.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">04 / Skills</span>
+        <h2 class="section__title">My skills</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/>
+            </svg>
+          </div>
+          <h3>Applications</h3>
+          <div class="skills__tags">
+            <span class="skill-tag skill-tag--high">Marketplaces</span>
+            <span class="skill-tag skill-tag--high">Mailings</span>
+            <span class="skill-tag skill-tag--high">TMS systems</span>
+            <span class="skill-tag skill-tag--high">Billing</span>
+            <span class="skill-tag skill-tag--high">News portal</span>
+          </div>
+        </div>
+
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3>Methodologies</h3>
+          <div class="skills__tags">
+            <span class="skill-tag skill-tag--high">Agile</span>
+            <span class="skill-tag skill-tag--high">Scrum</span>
+            <span class="skill-tag skill-tag--high">Kanban</span>
+            <span class="skill-tag skill-tag--high">Lean</span>
+          </div>
+        </div>
+
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
+            </svg>
+          </div>
+          <h3>Technical Skills</h3>
+          <div class="skills__tags">
+            <span class="skill-tag skill-tag--high">MongoDB</span>
+            <span class="skill-tag skill-tag--high">PostgreSQL</span>
+            <span class="skill-tag skill-tag--high">MSSQL</span>
+            <span class="skill-tag skill-tag--high">Elastic Search</span>
+            <span class="skill-tag skill-tag--mid">Redis</span>
+            <span class="skill-tag skill-tag--mid">Swarmpit</span>
+            <span class="skill-tag skill-tag--mid">RMQ</span>
+            <span class="skill-tag skill-tag--mid">Grafana</span>
+            <span class="skill-tag skill-tag--mid">Kibana</span>
+            <span class="skill-tag skill-tag--mid">Django</span>
+            <span class="skill-tag skill-tag--mid">Gitlab</span>
+            <span class="skill-tag skill-tag--mid">Sentry</span>
+          </div>
+        </div>
+
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3>Testing Skills</h3>
+          <div class="skills__tags">
+            <span class="skill-tag skill-tag--high">Quality Assurance</span>
+            <span class="skill-tag skill-tag--high">Functional Testing</span>
+            <span class="skill-tag skill-tag--high">Manual Testing</span>
+            <span class="skill-tag skill-tag--high">Web Testing</span>
+            <span class="skill-tag skill-tag--high">API Testing</span>
+            <span class="skill-tag skill-tag--mid">Quality Management</span>
+            <span class="skill-tag skill-tag--mid">Integration Testing</span>
+            <span class="skill-tag skill-tag--mid">Load Testing</span>
+            <span class="skill-tag skill-tag--mid">Static Testing</span>
+            <span class="skill-tag skill-tag--mid">Software Documentation</span>
+            <span class="skill-tag skill-tag--mid">Mentoring</span>
+          </div>
+        </div>
+
+        <div class="skills__card reveal">
+          <div class="skills__card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3>Tools</h3>
+          <div class="skills__tags">
+            <span class="skill-tag skill-tag--high">Postman</span>
+            <span class="skill-tag skill-tag--high">Charles Proxy</span>
+            <span class="skill-tag skill-tag--high">JMeter</span>
+            <span class="skill-tag skill-tag--high">BrowserStack</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">05 / Education</span>
+        <h2 class="section__title">Background</h2>
+      </div>
+      <div class="education__grid">
+
+        <div class="education__card reveal">
+          <div class="education__year">2009 — 2016</div>
+          <div class="education__body">
+            <h3 class="education__degree">Master's Degree in Computer Science</h3>
+            <span class="education__school">St. Petersburg SUT</span>
+          </div>
+        </div>
+
+        <div class="education__card reveal">
+          <div class="education__year">2020</div>
+          <div class="education__body">
+            <h3 class="education__degree">ISTQB Foundation Level</h3>
+            <span class="education__school">International Software Testing Qualifications Board</span>
+          </div>
+        </div>
+
+        <div class="education__card reveal">
+          <div class="education__year">2021</div>
+          <div class="education__body">
+            <h3 class="education__degree">Kanban System Design</h3>
+            <span class="education__school">Kanban University</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__tag">06 / Contact</span>
+        <h2 class="section__title">Let's connect</h2>
+      </div>
+      <div class="contact__info reveal">
+        <p class="contact__intro">
+          Open to new opportunities, interesting projects, and good conversations.
+          Drop me a message — I'll get back to you within the day.
+        </p>
+        <div class="contact__links">
+          <div class="contact__col">
+            <a href="mailto:daria.utkina.qa@gmail.com" target="_blank" rel="noopener" class="contact__link">
+              <span class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </span>
+              <span>daria.utkina.qa@gmail.com</span>
+            </a>
+            <a href="https://t.me/daria_utk" target="_blank" rel="noopener" class="contact__link">
+              <span class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.93 6.763l-1.687 7.952c-.126.56-.455.698-.921.434l-2.55-1.88-1.23 1.184c-.136.136-.25.25-.513.25l.183-2.598 4.726-4.27c.205-.183-.045-.285-.318-.102L7.9 14.717l-2.513-.786c-.547-.17-.558-.547.114-.81l9.81-3.784c.456-.165.855.114.62.426z"/>
+                </svg>
+              </span>
+              <span>@daria_utk</span>
+            </a>
+          </div>
+          <div class="contact__col">
+            <a href="https://www.linkedin.com/in/daria-utkina-2a6450214/" target="_blank" rel="noopener" class="contact__link">
+              <span class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </span>
+              <span>linkedin.com/in/daria-utkina</span>
+            </a>
+            <a href="https://github.com/DariaUtk" target="_blank" rel="noopener" class="contact__link">
+              <span class="contact__link-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                </svg>
+              </span>
+              <span>github.com/DariaUtk</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Daria Utkina. Crafted with attention to detail.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
